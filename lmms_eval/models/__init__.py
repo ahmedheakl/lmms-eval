@@ -143,6 +143,7 @@ AVAILABLE_CHAT_TEMPLATE_MODELS = {
     "minicpm_o": "MiniCPM_O",
     "thyme": "Thyme",
     "openai": "OpenAICompatible",
+    "deepseek_ocr": "DeepSeekOCR",
     "vllm": "VLLM",
     "vllm_omni_api": "VLLMOmniAPI",
     "vllm_omni": "VLLMOmni",

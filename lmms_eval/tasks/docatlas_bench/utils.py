@@ -58,7 +58,7 @@ def docatlas_doc_to_visual(doc):
 
 def docatlas_doc_to_text(doc, lmms_eval_specific_kwargs=None):
     kwargs = lmms_eval_specific_kwargs or {}
-    return f"{kwargs.get('pre_prompt', '')}{PROMPT}{kwargs.get('post_prompt', '')}"
+    return f"{kwargs.get('pre_prompt', '')}{kwargs.get('prompt', PROMPT)}{kwargs.get('post_prompt', '')}"
 
 
 def _reading_order_edit(matches):
